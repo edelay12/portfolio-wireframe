@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.navBar {
+position: fixed;
+top: 0;
+width: 100%;
+height: 5vh;
+background-color: gray;
+color: #ffffff;
+text-align: center;
+z-index: 2;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    height: 96vh;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.heroLabel {
+    color: black;
+}
+
+.aboutSection {
+    display: flex;
+    height: 96vh;
+    width: 100%;
+    background-color: #bebebe;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projectSection {
+    display: flex;
+    height: 96vh;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contactSection {
+    display: flex;
+    height: 96vh;
+    width: 100%;
+    background-color: #bebebe;
+    justify-content: center;
+    align-items: center;
+    
+}
